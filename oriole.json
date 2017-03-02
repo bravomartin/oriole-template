@@ -1,7 +1,7 @@
 {
   "title": "Oriole Template",
   "source": "main.md",
-  "mode": "markdown",
+  "mode": "ipynb",
   "htmlContent": "main.html",
   "videoId": "TyimCGEkiUc",
   "cues": [
@@ -10,7 +10,7 @@
       "sel": "#example1"
     },
     {
-      "time": 45266,
+      "time": 17662,
       "sel": "#an-id"
     },
     {
@@ -22,20 +22,22 @@
       "sel": "#a-chart"
     },
     {
-      "time": 79750,
-      "sel": "#example3"
-    },
-    {
-      "time": 83433,
+      "time": 68263,
       "sel": "#seaborn-example"
     },
     {
-      "time": 114185,
+      "time": 69762,
       "sel": "#interactive-widgets"
     },
     {
-      "time": 115318,
+      "time": 124799,
       "sel": "#these-too"
+    },
+    {
+      "time": 7064,
+      "sel": "#simple-example",
+      "scroll": true,
+      "highlight": true
     }
   ]
 }

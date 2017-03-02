@@ -3,7 +3,11 @@
 nginx -c /etc/nginx/nginx.conf &
 
 # Start the Oriole Editor
-ROOT=/usr/workdir/ PORT=8008 bash -c '/usr/local/bin/server-linux'
+ROOT=/usr/workdir/ PORT=8008 bash -c '/usr/local/bin/oriole-linux' &
+
+# Start the Atlas Editor
+ROOT=/usr/workdir/ PORT=8009 bash -c '/usr/local/bin/atlas-linux' &
+
   
 # Start watching for changes to ipynb files
 ls *.ipynb | entr jupyter nbconvert \

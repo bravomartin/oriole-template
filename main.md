@@ -1,9 +1,11 @@
 
-
+::: #init
 # A Simple Oriole
-<span id="example1"/>
+:::
 
+::: #simple-example
 A really simple example:
+:::
 
 ``` python
 hey = &#34;hello world&#34;, 38+4
@@ -11,6 +13,9 @@ print(hey)
 print("I'm executable")
 ```
 
+::: #some-other-id
+When I write something.
+:::
 
 ```
 print("I'm not executable")
@@ -27,12 +32,15 @@ I'm a block with the id #an-id
 ## More complicated example
 :::
 
+::: #complicated-example-code
 ``` python
 x = [1,1]
 for i in range(10):    
     x.append(x[-1] + x[-2]) 
 print(&#39;, &#39;.join(str(y) for y in x))
 ```
+:::
+
 ::: #a-chart
 ## A Chart
 ::: 
